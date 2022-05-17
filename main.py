@@ -14,3 +14,12 @@ while True:
     print(U1.GetPosX())
     print(U1.GetPosY())
     U1.Move()
+
+# dodanie/zmiana plików repozytorium
+# git status
+# git add .
+# git commit -m "..."
+# git push -u origin master
+
+
+
