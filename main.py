@@ -10,6 +10,11 @@ B1.Display()
 
 U1 = User.User('X', "player1")
 
+U1.AddPoint()
+U1.AddPoint()
+U1.AddPoint()
+print(U1.GetPoints())
+
 while True:
     print(U1.GetPosX())
     print(U1.GetPosY())

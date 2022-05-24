@@ -3,6 +3,11 @@ class User(Player.Player):
     def __init__(self, character, name):
         super().__init__(character)
         self.__name = name
+        self.__points = 0
+    def AddPoint(self):
+        self.__points += 1
+    def GetPoints(self):
+        return self.__points
     def GetName(self):
         return self.__name
     def Move(self):
