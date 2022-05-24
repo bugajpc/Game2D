@@ -1,0 +1,1 @@
+player1 10 player2 12 player3 7 player4 6
