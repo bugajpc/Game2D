@@ -9,3 +9,6 @@ class Player:
         return self._pos_y
     def GetCharacter(self):
         return self._character
+    def SetPosition(self, x, y):
+        self._pos_x = x
+        self._pos_y = y
